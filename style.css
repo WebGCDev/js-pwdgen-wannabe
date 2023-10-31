@@ -9,3 +9,45 @@ Reset
   padding: 0;
   box-sizing: border-box;
 }
+
+/*
+******
+Body
+******
+*/
+
+body {
+  font-size: 30px;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.generatorimage {
+  top: 0;
+  left: 0;
+  width: 100%;
+  filter: blur(6px);
+  position: absolute;
+  z-index: -1;
+}
+
+.containerresult {
+  border: 1px solid yellow;
+  border-radius: 115px;
+  background-color: rgba(211, 211, 211, 0.4);
+  width: 535px;
+  padding: 20px;
+  margin: 175px auto;
+}
+
+#nome,
+#cognome,
+#colorepreferito {
+  margin-top: 70px;
+}
+
+#password {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
