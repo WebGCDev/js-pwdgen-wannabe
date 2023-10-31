@@ -6,10 +6,10 @@ const color = document.getElementById('colorepreferito');
 const numero = document.getElementById('numero');
 const password = document.getElementById('password');
 
-nome.innerHTML = 'il tuo nome:';
-cognome.innerHTML = 'il tuo cognome:';
-color.innerHTML = 'il tuo colore preferito:';
-password.innerHTML = 'la tua password:';
+nome.innerHTML = 'Il tuo nome:';
+cognome.innerHTML = 'Il tuo cognome:';
+color.innerHTML = 'Il tuo colore preferito:';
+password.innerHTML = 'La tua password:';
 
 console.log(nome);
 console.log(cognome);
